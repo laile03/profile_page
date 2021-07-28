@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*nav bar css*/
+.toplayer{
+    background-color: rgb(24, 24, 24);
+}
+
+.nav{
+    width: 1000px;
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    width: 40%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: turquoise;
+    color: white;
+    border: none;
+    box-shadow: 4px 4px black;
+}
+.nav-title{
+    margin-left: 15px;
+}
+
+.bcontain {
+    width: 1000px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+.col, .col-2{
+    margin: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
+.col-2{
+    flex: 2;
+}
+
+/* user card css*/
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usercard, .connections{
+    width: 100%;
+    background-color: whitesmoke;
+    border: 2px solid rgb(116, 115, 115);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid rgb(116, 115, 115);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.cardheader{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.cardbody{
+    padding: 10px;
+}
+
+.header{
+    background-color: turquoise ;
+    height: 100px;
+    margin-bottom: 70px;
+}
+
+.body{
+    padding: 25px;
+}
+
+.body h1,.body h2,.body p {
+    margin: 15px 0px;
+}
+
+.mapmark{
+    height: 15px;
+    margin-right: 10px;
+}
+
+.picture{
+    border-radius: 100%;
+    background-color: whitesmoke;
+    height: 150px;
+    padding: 12px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.icon{
+    height: 20px;
+}
+
+a{
+    color: blue;
+}
+
+/* connection request bar */
+.connection-h{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    padding: 25px;
+}
+
+.connect-a{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.users-c{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
